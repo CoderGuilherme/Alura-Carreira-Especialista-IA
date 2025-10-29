@@ -42,6 +42,9 @@ Os arquivos ficarão na pasta `projects/n8n`.
 </details>
 
 <details>
-<summary><strong>Case 2: [Nome do Próximo Case]</strong></summary>
+<summary><strong>Case 2: Agente IA para Resumo Email + SMS</strong></summary>
+
+**Objetivo:** Receber  o email criar resumir usando IA (Nesse caso Gemini) e enviar esse email via SMS.
+![alt text](image.png)
 
 </details>
