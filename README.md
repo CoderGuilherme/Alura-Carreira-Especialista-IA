@@ -42,9 +42,31 @@ Os arquivos ficarão na pasta `projects/n8n`.
 </details>
 
 <details>
+<<<<<<< HEAD
 <summary><strong>Case 2: Agente IA para Resumo Email + SMS</strong></summary>
 
 **Objetivo:** Receber  o email criar resumir usando IA (Nesse caso Gemini) e enviar esse email via SMS.
 ![alt text](image.png)
+=======
+<summary><strong>Case 2: Agente IA para Resumo de E-mail via SMS</strong></summary>
+
+**Objetivo:** Receber um e-mail, criar um resumo usando IA (Gemini) e enviar este resumo via SMS.
+
+#### Estrutura do Workflow
+
+`Trigger Automatico (E-mail Recebido)` -> `Tratamento/Seleção dos Dados` -> `Resumo com IA (Gemini)` -> `Envio do Resumo (SMS)`
+
+#### Workflow Visual
+<img width="915" height="303" alt="flow_case_2" src="https://github.com/user-attachments/assets/e2ac6fae-d3da-4915-8374-fbe7b298dcca" />
+
+#### Aprendizados
+
+* Automatizar um fluxo a partir de um gatilho de e-mail (Email Trigger).
+* Integrar um modelo de IA (Google Gemini) em um fluxo N8N.
+* Autenticar serviços externos (Google AI Studio, 7IO SMS) usando chaves de API.
+* Criar *prompts* eficazes para instruir a IA a realizar uma tarefa (como resumir um texto).
+* Processar a saída de texto gerada pela IA para uso em etapas seguintes.
+* Configurar e utilizar um nó de serviço de SMS para enviar mensagens formatadas.
+>>>>>>> 4c58a5349d656dd6092396c4f830caef012c7a28
 
 </details>
